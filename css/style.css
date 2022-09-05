@@ -17,7 +17,7 @@ body {
     font-family: sans-serif;
     flex-direction: column;
     /* justify-content: center; */
-    padding: 0 10rem;
+    /* padding: 0 10rem; */
 }
 
 /* #primary-header {
@@ -32,10 +32,13 @@ a {
 #root {
     /* align-items: center; */
     display: flex;
+    flex: auto;
     flex-direction: column;
     /* justify-content: center; */
     /* width: calc(100vw - 20rem); */
+    /* margin: 0 10rem; */
     /* min-width: 600px; */
+    max-width: 60rem;
 }
 
 #primary-header {
@@ -78,11 +81,20 @@ ul.nav-menu li {
     margin: 6rem 0;
 }
 
+#billboard-content {
+    flex: 1;
+}
+
 #billboard-content-text {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    justify-content: flex-start;
 }
+
+/* #billboard-content-text * {
+    flex: auto;
+} */
 
 #billboard-title {
     color: #F9FAF8; /* .logo-text */
@@ -95,7 +107,9 @@ button.singup-button {
     border-radius: 0.5rem;
     font-size: 1.1rem;
     font-weight: bold;
-    flex: none;
+    /* flex: none; */
+    /* height: 2rem; */
+    /* margin-bottom: auto; */
     padding: 0.6rem 2rem;
     width: fit-content;
 }
@@ -107,14 +121,27 @@ button.billboard-singup-button {
 
 #billboard-img {
     background-color: #6d747e;
-    flex: none;
-    height: 15rem;
+    /* flex: none; */
+    height: auto;
     /* width: 60rem; */
     width: 30rem;
 }
 
-@media(max-width: 600px){
-    body {
-        padding: 0;
+@media(max-width: 60rem){
+    /* body {
+        padding: 0 4rem;
+    } */
+
+    #root {
+        padding: 0 1rem;
     }
+
+    /* .nav-menu {
+        flex-direction: column;
+    } */
+
+    #billboard-content {
+        flex-wrap: wrap;
+        justify-content: center;
+    } 
 }
