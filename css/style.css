@@ -4,7 +4,8 @@
 }
 
 html {
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    /* width: 100%; */
 }
 
 *, *::before, *::after {
@@ -18,6 +19,7 @@ body {
     flex-direction: column;
     /* justify-content: center; */
     /* padding: 0 10rem; */
+    /* width: 100%; */
 }
 
 /* #primary-header {
@@ -40,7 +42,7 @@ a {
     /* margin: 0 10rem; */
     /* min-width: 600px; */
     /* max-width: 60rem; */
-    max-width: 100vw;
+    max-width: 100%;
 }
 
 /* .padder {
@@ -54,7 +56,7 @@ a {
     width: 100vw;
 }
 
-#primary-header {
+.page-padding {
     flex: 0 1 95vw;
     max-width: 60rem;
 }
