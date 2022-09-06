@@ -136,8 +136,28 @@ button.billboard-singup-button {
     background-color: #6d747e;
     /* flex: none; */
     height: auto;
-    /* width: 60rem; */
     width: 30rem;
+}
+
+.info-blocks-content {
+    align-items: center;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.info-blocks-title {
+    font-size: 2.25rem;
+    /* font-size: 36px; */
+    margin: 2rem 0;
+}
+
+.info-blocks-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .info-block {
@@ -153,7 +173,6 @@ button.billboard-singup-button {
 }
 
 .info-block-text {
-    color: #1F2937;
     width: 100%;
 }
 
