@@ -123,7 +123,7 @@ ul.nav-menu li {
     font-weight: bold;
 }
 
-button.singup-button {
+.singup-button {
     border: none;
     border-radius: 0.5rem;
     font-size: 1.1rem;
@@ -135,7 +135,7 @@ button.singup-button {
     width: fit-content;
 }
 
-button.billboard-singup-button {
+.billboard-singup-button {
     background-color: #3882F6;
     color: white;
 }
@@ -154,6 +154,7 @@ button.billboard-singup-button {
     flex-direction: column;
     margin-bottom: 5rem;
     margin-inline: auto;
+    max-width: 60rem;
 }
 
 .info-blocks-title {
@@ -210,11 +211,23 @@ button.billboard-singup-button {
     font-weight: bold;
 }
 
-/* .quote-content {
-    align-items: center;
+.signup-invite-content {
+    background-color: #3882F6;
+    border-radius: 1rem;
+    color: white;
     display: flex;
-    flex-direction: column;
-} */
+    justify-content: space-between;
+    margin-inline: auto;
+    margin-top: 7rem;
+    max-width: 60rem;
+    padding: 2rem 7rem;
+}
+
+.singnup-invite-button {
+    background-color: #3882F6;
+    border: white solid 0.15rem;
+    color: white;
+}
 
 @media(max-width: 50rem){
     /* body {
