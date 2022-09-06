@@ -42,7 +42,7 @@ a {
     width: inherit;
 }
 
-.page-padding {
+.page-padding-row {
     flex: 0 1 100%;
     max-width: 60rem;
 }
