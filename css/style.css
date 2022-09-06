@@ -64,6 +64,11 @@ a {
     max-width: 60rem;
 }
 
+.page-padding-column {
+    flex: 0 1 95vh;
+    max-height: 60rem;
+}
+
 .nav-menu {
     align-items: center;
     display: flex;
@@ -148,6 +153,7 @@ button.billboard-singup-button {
     display: flex;
     flex-direction: column;
     margin-bottom: 5rem;
+    margin-inline: auto;
 }
 
 .info-blocks-title {
