@@ -140,6 +140,22 @@ button.billboard-singup-button {
     width: 30rem;
 }
 
+.info-block {
+    text-align: center;
+    width: 10rem;
+}
+
+.info-block-img {
+    border: 0.3rem solid #3882F6;
+    border-radius: 1rem;
+    height: 10rem;
+    width: 10rem;
+}
+
+.info-block-text {
+    width: 100%;
+}
+
 @media(max-width: 50rem){
     /* body {
         padding: 0 4rem;
