@@ -33,7 +33,7 @@ a {
 }
 
 #root {
-    /* align-items: center; */
+    align-items: center;
     display: flex;
     flex: auto;
     flex-direction: column;
