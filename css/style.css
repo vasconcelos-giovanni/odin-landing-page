@@ -147,12 +147,17 @@ ul.nav-menu li {
     width: 30rem;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+}
+
 .info-blocks-content {
     align-items: center;
     color: #1F2937;
     display: flex;
     flex-direction: column;
-    margin-bottom: 5rem;
     margin-inline: auto;
     max-width: 60rem;
 }
@@ -218,7 +223,6 @@ ul.nav-menu li {
     display: flex;
     justify-content: space-between;
     margin-inline: auto;
-    margin-top: 7rem;
     max-width: 60rem;
     padding: 2rem 7rem;
 }
@@ -227,6 +231,15 @@ ul.nav-menu li {
     background-color: #3882F6;
     border: white solid 0.15rem;
     color: white;
+}
+
+footer {
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
 }
 
 @media(max-width: 50rem){
