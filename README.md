@@ -23,8 +23,4 @@ This project allowed me to explore and learn various concepts and technologies:
 
 # 🖼️ Screenshots
 
-![Header](img/screenshots/1.png)
-
-![Main part of website](img/screenshots/2.png)
-
-![Footer](img/screenshots/3.png)
+![Header](img/screenshots/screenshot.jpeg)
