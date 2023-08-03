@@ -4,6 +4,10 @@
 
 Odin Landing Page is a beautiful web page created as a solution for the chapter 5 of the section [Project: Landing Page](https://www.theodinproject.com/lessons/foundations-landing-page) of the course [Foundations](https://www.theodinproject.com/paths/foundations/courses/foundations) of [The Odin Project](theodinproject.com). This project showcases a stunning web page built using pure HTML and CSS, ensuring responsiveness on large and medium screens.
 
+## 💿 Live Demo
+
+Check out the live demo here: [Learning Vue at W3](https://vasconcelos-giovanni.github.io/odin-landing-page)
+
 ## 🔧 Technologies
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
