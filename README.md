@@ -6,7 +6,7 @@ Odin Landing Page is a beautiful web page created as a solution for the chapter 
 
 ## 💿 Live Demo
 
-Check out the live demo here: [Learning Vue at W3](https://vasconcelos-giovanni.github.io/odin-landing-page)
+Check out the live demo here: [Odin Landing Page](https://vasconcelos-giovanni.github.io/odin-landing-page)
 
 ## 🔧 Technologies
 
